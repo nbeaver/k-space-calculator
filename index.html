@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>XAFS k-space calculator</title>
         <script type="text/javascript" src="calculator.js"></script>
+        <script type="text/javascript" async
+          src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
     </head>
     <body>
         <table id="calculator_table" >
@@ -43,5 +46,10 @@
                 <td><output id="diff_k"></td>
             </tr>
         </table>
+
+        $$k = \sqrt{\frac{2 m_e (E - E_0)}{\hbar^2}}$$
+
+        $$E(k) = E_0 + \frac{(\hbar k)^2}{2 m_e}$$
+
     </body>
 </html>
